@@ -9,7 +9,7 @@
     <title>Future Imperfect by HTML5 UP</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="{{ asset("assets/css/main.css") }}" />
+    <link rel="stylesheet" href="{{ secure_asset("assets/css/main.css") }}" />
 </head>
 <body class="is-preload">
 
@@ -164,10 +164,10 @@
 </div>
 
 <!-- Scripts -->
-<script src="{{ asset("assets/js/jquery.min.js") }}"></script>
-<script src="{{ asset("assets/js/browser.min.js") }}"></script>
-<script src="{{ asset("assets/js/breakpoints.min.js") }}"></script>
-<script src="{{ asset("assets/js/util.js") }}"></script>
-<script src="{{ asset("assets/js/main.js") }}"></script>
+<script src="{{ secure_asset("assets/js/jquery.min.js") }}"></script>
+<script src="{{ secure_asset("assets/js/browser.min.js") }}"></script>
+<script src="{{ secure_asset("assets/js/breakpoints.min.js") }}"></script>
+<script src="{{ secure_asset("assets/js/util.js") }}"></script>
+<script src="{{ secure_asset("assets/js/main.js") }}"></script>
 </body>
 </html>
