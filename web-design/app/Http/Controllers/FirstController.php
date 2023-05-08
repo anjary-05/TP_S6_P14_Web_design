@@ -40,7 +40,7 @@ class FirstController extends BaseController
               $message="erreur de connexion";
               return redirect()->route('connexion',['message'=>$message]);
           }else{
-              $message="vous etez connectez";
+              $message="";
               $domaine=$function->listdomaine();
               $categorie=$function->listcatgerieIA();
               $data=$function->listinfo_contenuIA();
