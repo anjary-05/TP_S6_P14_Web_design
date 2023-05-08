@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ secure_asset("assets/css/main.css") }}" />
+    <meta name="description" content="Première source d'information francophone consacrée à l'intelligence artificielle">
 </head>
 <body class="is-preload">
 
