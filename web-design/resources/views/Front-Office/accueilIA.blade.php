@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ secure_asset("assets/css/main.css") }}" />
     <meta name="description" content="Première source d'information francophone consacrée à l'intelligence artificielle">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' tps6p14webdesign-production.up.railway.app;">
 </head>
 <body class="is-preload">
 
@@ -126,7 +126,7 @@
                         <time class="published" datetime="2015-10-20">{{ $function->date_inword($data1->date_sortie) }} </time>
                         <a href="#" rel="noopener" target="_blank" class="author"><img src="images/avatar.jpg" alt="" /></a>
                     </header>
-                    <a href="#" rel="noopener" target="_blank" class="image"><img src="data:image/{{ $data1->extension }};base64,{{ $data1->image }}" alt="" /></a>
+                    <a href="#"  class="image"><img src="data:image/{{ $data1->extension }};base64,{{ $data1->image }}" alt="" /></a>
                 </article>
                @endforeach
                 @else
@@ -134,7 +134,7 @@
                         <h2>donnees</h2>
                         <p>L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables d'effectuer des tâches qui nécessitent normalement l'intelligence humaine, comme la reconnaissance de la parole, la vision, la prise de décision</p>
                         <ul class="actions">
-                            <li><a href="#" rel="noopener" target="_blank" class="button">Learn More</a></li>
+                            <li><a href="#"  class="button">Learn More</a></li>
                         </ul>
                     </section>
                 @endif
@@ -146,18 +146,18 @@
             <h2>à propos</h2>
             <p>Le portail francophone indépendant consacré à l'intelligence artificielle et à la datascience, à destination des chercheurs, étudiants, professionnels et passionnés</p>
             <ul class="actions">
-                <li><a href="#" rel="noopener" target="_blank" class="button">savoir plus</a></li>
+                <li><a href="#"  class="button">savoir plus</a></li>
             </ul>
         </section>
 
         <!-- Footer -->
         <section id="footer">
             <ul class="icons">
-                <li><a href="#" rel="noopener" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" rel="noopener" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" rel="noopener" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" rel="noopener" target="_blank" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-                <li><a href="#" rel="noopener" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="#"  class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#"  class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#"  class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#"  class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+                <li><a href="#"  class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
             <p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
         </section>
