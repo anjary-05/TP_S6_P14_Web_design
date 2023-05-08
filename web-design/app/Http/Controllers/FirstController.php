@@ -71,7 +71,7 @@ class FirstController extends BaseController
         $domaine=$functions->listdomaine();
         $categorie=$functions->listcatgerieIA();
         $data=$functions->listinfo_contenuIA();
-        $message="";
+        $message="contenu ajoutee";
         return view('Baccoffice.gereradmin',
             ['message'=>$message,
                 'domaine'=>$domaine,
