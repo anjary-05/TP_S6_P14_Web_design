@@ -4,13 +4,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 <head>
     <title>Future Imperfect by HTML5 UP</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ secure_asset("assets/css/main.css") }}" />
     <meta name="description" content="Première source d'information francophone consacrée à l'intelligence artificielle">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
 </head>
 <body class="is-preload">
 
